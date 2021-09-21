@@ -16,13 +16,13 @@
  
 //  // Crie uma função que receba um array composto por números e retorna uma nova matriz (array) com todos os valores divididos pela soma de toda a matriz, usando map() e reduce().
   
- export let arrayNum = [1,2,3,4,5]
+//  export let arrayNum = [1,2,3,4,5]
   
- function divisorDeArrays(numeros) {
-     let soma = numeros.reduce((acum, numero) => acum + numero)
-     let arrayResultado = numeros.map(numero => numero / soma)
-     return arrayResultado
- }
+//  function divisorDeArrays(numeros) {
+//      let soma = numeros.reduce((acum, numero) => acum + numero)
+//      let arrayResultado = numeros.map(numero => numero / soma)
+//      return arrayResultado
+//  }
   
 //  console.log(divisorDeArrays(arrayNum)); //[0.66666666666667, 0.133333333333, 0.2, 0.2666666666666, 0.33333333333]
   
@@ -38,7 +38,9 @@
   
 //  console.log(filtroDeArrays(arrayPalavras, 4)); //[ 'leandro', 'nicolas', 'esteban', 'pedro' ]
   
-//  // Crie um array de objetos literais, onde cada objeto será um aluno e terá dois atributos: nome e nota. Crie duas funções que ordenam o array: uma ordenará os alunos em ordem alfabética e a outra o fará por nota, da mais alta para a mais baixa.
+ // Crie um array de objetos literais,
+ // onde cada objeto será um aluno e terá dois atributos: nome e nota.
+ // Crie duas funções que ordenam o array: uma ordenará os alunos em ordem alfabética e a outra o fará por nota, da mais alta para a mais baixa.
   
 //   let alunos = [
 //      {nome: "Ezequiel", nota: 7},
