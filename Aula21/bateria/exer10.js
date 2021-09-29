@@ -1,3 +1,4 @@
+
 let frutasAmarelas=['melão','mamão','limão'];
 let [fruta1, fruta2, fruta3] = frutasAmarelas;
 
